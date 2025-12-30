@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+    char name[6];
+    int size;
+
+    size = sizeof(name);
+
+    printf("size of name variable : %d\n", size);
+    printf("name : %s\n", name);
+}
