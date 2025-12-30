@@ -16,4 +16,6 @@ int main()
     // charaters
     char q;            // 1 byte
     char w[sizeof(q)]; // depends on side of variable q (1 char = 1 byte)
+
+    return 0;
 }

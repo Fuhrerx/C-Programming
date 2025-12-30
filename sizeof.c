@@ -9,4 +9,6 @@ int main()
 
     printf("size of name variable : %d\n", size);
     printf("name : %s\n", name);
+
+    return 0;
 }
