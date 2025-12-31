@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+// global variable
+
+int global = 10;
+
 // function declaration (prototype)
 
 void display();
