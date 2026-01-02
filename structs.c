@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 // declaration and definition of structures *(singular)
+
 typedef struct
 {
     char name[20];
     char author[25];
     float price;
-
 } books;
 
 // declaration and definition of structures *(array)
@@ -16,7 +16,6 @@ typedef struct
     char items[25];
     char desc[50];
     float mrp;
-
 } list;
 
 // global struct declaration
@@ -33,17 +32,20 @@ void read_list();
 
 int main(int argc, char *argv[])
 {
-
     printf("\nenter the details of books\n");
+    printf("\n");
     read_books();
 
     printf("\nenter the details of items brought\n");
+    printf("\n");
     read_list();
 
     printf("\nlist of books\n");
+    printf("\n");
     display_books();
 
     printf("\nlist of items brought\n");
+    printf("\n");
     display_list();
 
     return 0;
@@ -66,8 +68,11 @@ void display_list()
     {
 
         printf("items brought : %s\n", l[i].items);
+
         printf("description : %s\n", l[i].desc);
+
         printf("price of the item : %f\n", l[i].mrp);
+
         printf("\n");
     }
 }
