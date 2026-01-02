@@ -24,6 +24,14 @@ int main(int argc, char *argv[])
     int a = 5;
     printf("assignment : %d\n", &a);
 
+    // arethemetic assignment
+
+    printf("sum : %d\n", x += y);
+    printf("diff : %d\n", x -= y);
+    printf("prod : %d\n", x *= y);
+    printf("div : %d\n", x /= y);
+    printf("modulo : %d\n", x %= y);
+
     // relational
 
     printf("\n0 - false\n1 - true\n");
