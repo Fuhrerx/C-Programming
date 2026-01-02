@@ -17,6 +17,7 @@ int main(int argc, char *argv[])
     printf("numbers from 1 to 10 using while loop\n");
 
     int i = 1;
+
     while (i <= 10)
     {
         printf("%d\n", i);
@@ -31,6 +32,7 @@ int main(int argc, char *argv[])
     {
         printf("%d\n", i);
         i++;
+
     } while (i >= 10);
 
     return 0;

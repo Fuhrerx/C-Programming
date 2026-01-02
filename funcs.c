@@ -35,6 +35,7 @@ void display()
 void add(int x, int y)
 {
     int result = x + y; // local variable
+
     printf("sum of %d and %d is : %d\n", x, y, result);
 }
 
@@ -43,5 +44,6 @@ void add(int x, int y)
 int add1(int x, int y)
 {
     int result = x + y; // local variable
+
     return printf("sum of %d and %d is : %d\n", x, y, result);
 }
