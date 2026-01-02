@@ -5,7 +5,7 @@ int no;
 int factorial(int n);
 void display();
 
-int main()
+int main(int argc, char *argv[])
 {
     long long fact;
 

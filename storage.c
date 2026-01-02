@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "extren.c"
 
-int main()
+int main(int argc, char *argv[])
 {
     // auto class (default)
     auto int no = 5;

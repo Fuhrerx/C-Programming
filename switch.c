@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <ctype.h>
 
-int main()
+int main(int argc, char *argv[])
 {
     char active[4];
     char modified[4];

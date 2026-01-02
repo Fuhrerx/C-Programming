@@ -12,7 +12,7 @@ int add1(int x, int y);
 
 // main function
 
-int main()
+int main(int argc, char *argv[])
 {
 
     add(10, 20); // 10,20 are arguments
