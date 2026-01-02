@@ -1,21 +1,5 @@
 #include <stdio.h>
-
-#define func main
-
-int n2, *ptr;
-
-int func(void)
-{
-    printf("Enter the no of entries : ");
-    scanf("%d", &n2);
-
-    ptr = (int *)realloc(ptr, n2 * sizeof(int));
-
-    free(ptr);
-    ptr = NULL;
-
-    return 0;
-}
+#include <stdlib.h>
 
 // declaration and definition of structures *(singular)
 

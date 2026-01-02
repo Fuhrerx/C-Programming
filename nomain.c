@@ -1,10 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define func main
-
-int func(void)
+void _start()
 {
-    printf("Hello, World!!! (via macro)\n");
-    return 0;
+    printf("Hello, World without main!\\n");
+    exit(0);
 }
