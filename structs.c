@@ -1,5 +1,22 @@
 #include <stdio.h>
 
+#define func main
+
+int n2, *ptr;
+
+int func(void)
+{
+    printf("Enter the no of entries : ");
+    scanf("%d", &n2);
+
+    ptr = (int *)realloc(ptr, n2 * sizeof(int));
+
+    free(ptr);
+    ptr = NULL;
+
+    return 0;
+}
+
 // declaration and definition of structures *(singular)
 
 typedef struct
@@ -32,6 +49,7 @@ void read_list();
 
 int main(int argc, char *argv[])
 {
+
     printf("\nenter the details of books\n");
     printf("\n");
     read_books();
