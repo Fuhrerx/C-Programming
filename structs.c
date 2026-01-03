@@ -48,26 +48,26 @@ float circle();
 
 int main(int argc, char *argv[])
 {
-    // printf("\nenter the details of books\n");
-    // printf("\n");
-    // read_books();
+    printf("\nenter the details of books\n");
+    printf("\n");
+    read_books();
 
-    // main1();
+    main1();
 
-    // printf("\nenter the details of items brought\n");
-    // printf("\n");
-    // read_list();
+    printf("\nenter the details of items brought\n");
+    printf("\n");
+    read_list();
 
-    // printf("\nlist of books\n");
-    // printf("\n");
-    // display_books();
+    printf("\nlist of books\n");
+    printf("\n");
+    display_books();
 
-    // printf("\nlist of items brought\n");
-    // printf("\n");
-    // display_list();
+    printf("\nlist of items brought\n");
+    printf("\n");
+    display_list();
 
-    // free(l);
-    // l = NULL;
+    free(l);
+    l = NULL;
 
     area = circle();
     printf("\narea of the given circle of radius %f : \n", r);
