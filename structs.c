@@ -46,6 +46,8 @@ void read_books();
 void read_list();
 float circle();
 
+// main function
+
 int main(int argc, char *argv[])
 {
     printf("\nenter the details of books\n");
@@ -78,6 +80,8 @@ int main(int argc, char *argv[])
     return 0;
 }
 
+// calloc function
+
 int main1()
 {
     printf("\n");
@@ -99,6 +103,8 @@ int main1()
     }
 }
 
+// struct display (books)
+
 void display_books()
 {
     printf("name of the book : %s\n", b1.name);
@@ -110,6 +116,8 @@ void display_books()
     printf("\n");
 }
 
+// struct display (list)
+
 void display_list()
 {
     for (int i = 0; i < num_items; ++i)
@@ -119,6 +127,8 @@ void display_list()
         printf("mrp : %f\n", l[i].mrp);
     }
 }
+
+// read books from user
 
 void read_books()
 {
@@ -131,6 +141,8 @@ void read_books()
     printf("price : ");
     scanf("%f", &b1.price);
 }
+
+// read list from user
 
 void read_list()
 {
@@ -146,6 +158,8 @@ void read_list()
         scanf("%f", &l[i].mrp);
     }
 }
+
+// function for area of a circle
 
 float circle()
 {
